@@ -1,0 +1,57 @@
+https://github.com/felipesekai/DesafioStone.git
+
+Vamos ao teste!
+Imagine que você está fazendo uma viagem para Maragogi com um grupo de
+amigos. Chegando lá vocês descobrem que todos os comércios da região aceitam
+somente o cartão Stone.
+Como você é o único que possui esse cartão, fica combinado que todas as
+despesas serão concentradas no seu cartão, e ao final da viagem tudo será dividido
+igualmente entre todos. O seu desafio será criar um algoritmo capaz de calcular o
+valor que cada pessoa deve a você ao final desta viagem.
+
+Cada despesa deve possuir:
+● Nome
+● Quantidade
+● Preço por pessoa, unidade ou peso.
+
+Exemplos:
+Nome: Passeio de escuna
+Quantidade: 5 (pessoas)
+Valor unitário: R$80,00
+
+Nome: Diária do hotel
+Quantidade: 3 (noites)
+Valor unitário: R$337,99 (por noite)
+
+Nome: Almoço self-service
+Quantidade: 0,757 (kg)
+Valor unitário: R$45,99 (por kg)
+
+Desafio: Desenvolva uma função (ou método) que irá receber uma lista de
+despesas (como a detalhada acima) e uma lista de nomes.
+
+A função deve:
+● Calcular a soma dos valores, ou seja, multiplicar o preço de cada despesa
+por sua quantidade e somar todos os resultados.
+● Dividir o valor de forma igual entre a quantidade de pessoas.
+● Retornar um mapa/dicionário onde a chave será o nome e o valor será
+quanto ele deve pagar a você.
+
+IMPORTANTE
+● Lembre-se de listar somente o nome das pessoas que ficaram devendo
+algum dinheiro ao final da viagem.
+● Quando fizer a divisão, é importante que não falte nenhum centavo!
+Cuidado quando tiver, por exemplo, um valor total de R $1,00 para ser
+dividido entre 3 pessoas. Isso daria uma dízima infinita. No entanto, o correto
+aqui é que duas pessoas fiquem com o valor 0,33 e a terceira fique com 0,34.
+● Para facilitar e como boa prática, não trabalhe com valores com decimais.
+Ou seja, ponto flutuante ou float. Use inteiros para representar os valores!
+Como a menor unidade na nossa moeda é o centavo, use valores inteiros em
+centavos. Assim, um real será representado por 100 (cem centavos é igual a
+um real).
+● Deixe documentado como você “testa” a solução. Por exemplo: “eu
+coloco o arquivo numa pasta/desafio e executo javac Desafio.java e depois
+java Desafio”. Testes automatizados são bem vindos, mas não são
+necessários.
+
+
